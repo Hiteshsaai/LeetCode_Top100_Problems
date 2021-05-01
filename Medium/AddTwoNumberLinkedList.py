@@ -1,7 +1,7 @@
 class solution:
     def addTwoNumbers(self, l1, l2):
         ## Time O(max(n,m)) || Space O(max(n,m)) [at max it will be max(n,m)+1]
-        ## n: l1 list m: l2 list
+        ## n: l1 first list m: l2 second list
 
         if l1 and not l2:
             return l1
